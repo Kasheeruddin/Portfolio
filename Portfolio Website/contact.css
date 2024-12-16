@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+#container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    font-size: 2rem;
+    color: #fff;
+    background: none;
+}
+
+#container ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#contact{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    font-family: "Ubuntu Condensed", serif;
+    line-height: 5rem;
+    color: #fff;
+}
+
+#contact ul li{
+    list-style: none;
+    font-size: 50px;
+}
